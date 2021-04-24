@@ -32,12 +32,14 @@
 			<div id="principal">
 				
 				<div id="conteudo">
+
 					<section id="capa">
 						<img src="img/museu.png">
 					</section>
 				</div>
 
-				<aside>
+				<aside> <!-- Inicio conteudo lateral -->
+
 					<section id="depoimento">
 						<img src="img/depoimento.png">
 					</section>
@@ -45,8 +47,9 @@
 					<section id="visita">
 
 						<h4>Faça uma visita</h4>
-						
-						<form>							
+
+						<form>	
+
 							<fieldset>
 								<legend>Selecione uma data</legend>
 
@@ -54,13 +57,34 @@
 								<input class="campo" type="date" id="data" required><br>
 
 								<label for="qtd">Quantidade de pessoas</label>
-								<input class="campo" style="width: 30px" type="number" id="qtd" required>
+								<input class="campo" style="width: 30px" type="number" id="qtd" required min="1" required>
 							</fieldset>
 
 							<input class="botao" type="submit" value="Verificar disponibilidade">
 						</form>
 					</section>
-				</aside>
+
+					<section id="galeria">
+
+						<h4>Galeria de fotos</h4>
+
+						<a href="">
+							<img src="img/imagem1.jpg" height="93" width="93" alt="Descrição de imagem">
+						</a>
+
+						<a href="">
+							<img src="img/imagem2.jpg" height="93" width="93" alt="Descrição de imagem">
+						</a>
+
+						<a href="">
+							<img src="img/imagem3.jpg" height="93" width="93" alt="Descrição de imagem">
+						</a>
+
+						<a href="">
+							<img src="img/imagem4.jpg" height="93" width="93" alt="Descrição de imagem">
+						</a>
+					</section>
+				</aside> <!-- fim /conteudo lateral -->
 
 			</div>
 			

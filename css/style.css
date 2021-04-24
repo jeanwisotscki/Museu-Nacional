@@ -86,12 +86,36 @@ aside{
 	width: 350px;
 	float: right;
 	background: #ebe7dd;
+	padding-bottom: 30px;
 }
 
 section#visita{
 	background: #cdc8b1;
 	padding: 10px 27px 10px 27px;
 	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section#galeria{
+	padding: 0 27px 0 27px;
+}
+
+section#galeria a{
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 17px 15px;
+	margin: 10px 0 0 20px;
+}
+
+section#galeria a:hover{
+	background: #9b9271;
+	border-radius: 5px;
+}
+
+section#galeria img{
+	margin-left: 2px;
+	margin-top: 3px;
 }
 
 h4{
@@ -105,7 +129,7 @@ h4{
 ***************************************/
 
 input{
-	width: 142px;
+	width: 143px;
 	height: 20px;
 	padding-left: 5px;
 	margin: 3px;
@@ -123,9 +147,16 @@ input.botao{
 	width: 100%;
 	height: 40px;
 	margin: 15px 0 0 0;
-	background: #9b9271;
+	background: #af670a;
 	color: #fff;
 	font-size: 1.2em;
+	font-weight: bold;
+}
+
+input.botao:hover{
+	color: #ffffff;
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	cursor: pointer;
 }
 
 label{
