@@ -38,7 +38,8 @@ a:hover{
 #logo a{
 	width: 248px;
 	height: 21px;
-	padding: 15px;
+	margin-top: 20px;
+	padding: 10px;
 	text-indent: -8888px;
 	display: block;
 	background: url(../img/logo.png) no-repeat;
@@ -87,6 +88,10 @@ nav ul li a:hover{
 	width: 710px;
 	float: left;
 	margin-bottom: 20px;
+}
+
+#capa{
+	margin-bottom: 10px;
 }
 
 aside{
